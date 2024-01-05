@@ -1,12 +1,12 @@
 import { Fragment } from 'react'
+import ReactCountries from "./pages/ReactCountries"
 
-function App() {
+export default function App() {
   
   return (
     <Fragment>
-      
+      <ReactCountries />
     </Fragment>
   )
 }
 
-export default App
